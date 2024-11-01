@@ -73,7 +73,7 @@ class House: # Создаем Класс
 
     def __del__(self):
         print(f' {self.name} снесёен, но он остается в истории.')
-        del self.name
+
 
 
 
